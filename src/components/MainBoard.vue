@@ -2,9 +2,9 @@
 import BoardItem from "@/components/BoardItem.vue";
 import { STATUS } from "@/constants";
 import { ref } from "vue";
-import useGameInit from "@/components/compositions/useGameInit";
-import useGamePreview from "@/components/compositions/useGamePreview";
-import useGamePlay from "@/components/compositions/useGamePlay";
+import useGameInit from "@/components/composabales/useGameInit";
+import useGamePreview from "@/components/composabales/useGamePreview";
+import useGamePlay from "@/components/composabales/useGamePlay";
 
 export default {
   name: "MainBoard",
